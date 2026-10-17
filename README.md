@@ -1,12 +1,15 @@
+# BunnyCDN Storage Adapter for Ghost
 
-#  BunnyCDN Storage Adapter for Ghost
+**ENGLISH** | [ESPAÑOL](README.es.md)
+
+Fork of [betschki/ghost-bunny-cdn-storage](https://github.com/betschki/ghost-bunny-cdn-storage), used on criptonautas.co. Not affiliated with or endorsed by the Ghost Foundation.
 
 BunnyCDNAdapter is a custom storage adapter for Ghost CMS, enabling you to store your media files using [BunnyCDN's storage solutions](https://bunny.net/storage/).
 
 This adapter implements the [Ghost documentation on storage adapters](https://ghost.org/docs/config/#storage-adapters).
   
 
-##  Installation via git
+## Installation via git
 1. Navigate to your content folder within Ghost's root directory (probably `./content`).
 2. Create an `adapters/storage` folder inside the content folder, if it doesn't exist.
 3. Change into the directory with `cd adapters/storage`.
@@ -54,3 +57,7 @@ BUNNYCDN_ACCESS_KEY="your-access-key"
 This adapter has been developed for the usage within [magicpages.co](https://magicpages.co) customer sites. One requirement was the ability to set a folder, as you can see in the final URL example above.
 
 If you wish to save your files into the root directory of your storage zone, set `folder` in your configuration file to `null`.
+
+## License
+
+[MIT](LICENSE), as declared upstream.
