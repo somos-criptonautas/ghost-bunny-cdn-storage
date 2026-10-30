@@ -149,7 +149,7 @@ class BunnyCDNAdapter extends BaseAdapter {
   }
 
   generateUniqueFilename(originalName) {
-    return `${Date.now()}-${originalName}`;
+    return `${Date.now()}-${this.getSanitizedFileName(originalName)}`;
   }
 
   constructBunnyCDNUrl(filename) {
